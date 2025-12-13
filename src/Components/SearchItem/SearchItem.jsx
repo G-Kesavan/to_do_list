@@ -14,7 +14,6 @@ const Search = ({searchItem}) => {
         <input 
           type="search" 
           value={text} 
-          placeholder='Search Notes'
           id='search'
           onChange={handleChange}
         />
